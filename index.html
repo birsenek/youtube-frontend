@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Front-End</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -40,15 +40,177 @@
             </div>
         </div>
         <div class="video-column">
-            <section class="video-player">player</section>
-            <section class="video-title">titulo</section>
-            <section class="video-description">descrição</section>
+            <section class="video-player">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_QkyYkcxs_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="video-title">
+                    <h2>
+                        Frostfang Barioth Speedrun (Dual Blades) - 4'14'' - Monster Hunter World: Iceborne
+                    </h2>
+                    <div class="statistics">
+                        <h4>234.932 visualizações - 12 de outubro de 2020</h4>
+                        <div class="socials">
+                            <div class="socialWrapper">
+                                <span class="material-icons socialIcon">thumb_up</span> 1,2 mil
+                            </div> 
+                            <div class="socialWrapper">
+                                <span class="material-icons socialIcon">thumb_down</span>2 
+                            </div>
+                            <div class="socialWrapper">
+                                <span class="material-icons shareIcon">reply </span> COMPARTILHAR
+                            </div>
+                            <div class="socialWrapper">
+                                <span class="material-icons saveIcon">playlist_add</span> SALVAR
+                            </div>
+                            <span class="material-icons">more_horiz</span>
+                        </div>
+                    </div>
+                    <hr>
+            </section>
+            <section class="video-description">
+                <div class="description-top">
+                    <div class="channel">
+                        <div class="profile-picture"></div>
+                        <div class="nameInscriptions">
+                            <span>BirseneK</span><br>
+                            <span>200 Inscritos</span>
+                        </div>
+                    </div>
+                    <div class="subscribe-area">
+                        <button class="subscribe">INSCREVER-SE</button>
+                    </div>
+                </div>
+                <div class="description-content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies suscipit erat, et iaculis tortor. Maecenas a cursus nulla, eget venenatis velit. Maecenas justo nulla, interdum eu mi sit amet, hendrerit interdum libero. Integer volutpat mauris erat, nec auctor lacus rhoncus ac. Vivamus ac finibus ligula. Aliquam ut tempus tortor, in suscipit eros. Vivamus ultrices blandit diam et convallis. Mauris sit amet imperdiet ligula. Nullam eu sagittis magna. Curabitur ullamcorper sem vitae dui scelerisque, sodales gravida ex vestibulum. Duis pharetra leo sit amet ante pretium accumsan. Curabitur ac mauris fermentum, laoreet purus vel, placerat turpis. Etiam ut justo sit amet tortor tristique tincidunt et non arcu. Cras volutpat augue vel pharetra feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce efficitur magna ut nibh interdum, finibus semper justo porttitor.
+                    </p>
+                    <div class="description-cards">
+                        <div class="game-card">
+                            <div class="game-card-img"></div>
+                            <div class="card-text">
+                                <p>Monster Hunter World: Iceborne Master Edition</p>
+                                <p>VER MAIS SOBRE ESTE JOGO</p>
+                            </div>
+                            <span class="material-icons card-arrow">keyboard_arrow_right</span>
+                        </div>
+                        <div class="game-card other-games-card">
+                            <div class="game-card-img"></div>
+                            <div class="card-text">
+                                <p>Jogos</p>
+                                <p>VER TUDO EM "VIDEOGAME"</p>
+                            </div>
+                            <span class="material-icons card-arrow">keyboard_arrow_right</span>
+                        </div>
+                    </div>
+                    <p>MOSTRAR MAIS</p>
+                    <hr>
+                </div>
+            </section>
             <section class="comments">
-                <div class="owner-comment">escreva seu comentario</div>
-                <div class="viewer-commments">lista de comentarios </div>
+                <div class="classification">
+                    <div class="qtde-comments">
+                        <span>25 comentários</span>
+                    </div>
+                    <span class="material-icons">sort</span><span>CASSIFICAR POR</span>
+                </div>
+                <br>
+                <div class="owner-comment">
+                    <div class="profile-picture"></div>
+                    <div class="self-comment">
+                        <span>Adicionar um comentário público...</span>
+                        <hr>
+                    </div>
+                </div>
+                <br>
+                <div class="viewer-commments">
+                </div>
+                <br>
             </section>
         </div>
-        <div class="playlist">playlist</div>
+        <div class="playlist">
+            <header class="playlist-header">
+                <span class="proximo">Próximo</span>
+                <div class="reproducao-auto">
+                    <span>REPRODUÇÃO AUTOMÁTICA </span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </header>
+            <div class="playlist-card">
+                <div class="playlist-video">
+                    <iframe width="168" height="94" src="https://www.youtube.com/embed/27Y43TOiATw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="playlist-video-text">
+                    <div class="playlist-video-title">Fatalis - Monster Hunter World Iceborne - Dual Blades First Kill Raw Footage</div>
+                    <div class="playlist-channel-name">BirseneK</div>
+                    <div class="playlist-views">200 vizualizações -</div>
+                    <div class="playlist-tempo">há 2 dias</div>
+                </div>
+            </div>
+            <hr>
+            <div class="playlist-card">
+                <div class="playlist-video">
+                    <iframe width="168" height="94" src="https://www.youtube.com/embed/27Y43TOiATw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="playlist-video-text">
+                    <div class="playlist-video-title">Fatalis - Monster Hunter World Iceborne - Dual Blades First Kill Raw Footage</div>
+                    <div class="playlist-channel-name">BirseneK</div>
+                    <div class="playlist-views">200 vizualizações -</div>
+                    <div class="playlist-tempo">há 2 dias</div>
+                </div>
+            </div>
+            <br>
+            <div class="playlist-card">
+                <div class="playlist-video">
+                    <iframe width="168" height="94" src="https://www.youtube.com/embed/27Y43TOiATw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="playlist-video-text">
+                    <div class="playlist-video-title">Fatalis - Monster Hunter World Iceborne - Dual Blades First Kill Raw Footage</div>
+                    <div class="playlist-channel-name">BirseneK</div>
+                    <div class="playlist-views">200 vizualizações -</div>
+                    <div class="playlist-tempo">há 2 dias</div>
+                </div>
+            </div>
+            <br>
+            <div class="playlist-card">
+                <div class="playlist-video">
+                    <iframe width="168" height="94" src="https://www.youtube.com/embed/27Y43TOiATw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="playlist-video-text">
+                    <div class="playlist-video-title">Fatalis - Monster Hunter World Iceborne - Dual Blades First Kill Raw Footage</div>
+                    <div class="playlist-channel-name">BirseneK</div>
+                    <div class="playlist-views">200 vizualizações -</div>
+                    <div class="playlist-tempo">há 2 dias</div>
+                </div>
+            </div>
+            <br>
+            <div class="playlist-card">
+                <div class="playlist-video">
+                    <iframe width="168" height="94" src="https://www.youtube.com/embed/27Y43TOiATw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="playlist-video-text">
+                    <div class="playlist-video-title">Fatalis - Monster Hunter World Iceborne - Dual Blades First Kill Raw Footage</div>
+                    <div class="playlist-channel-name">BirseneK</div>
+                    <div class="playlist-views">200 vizualizações -</div>
+                    <div class="playlist-tempo">há 2 dias</div>
+                </div>
+            </div>
+            <br>
+            <div class="playlist-card">
+                <div class="playlist-video">
+                    <iframe width="168" height="94" src="https://www.youtube.com/embed/27Y43TOiATw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="playlist-video-text">
+                    <div class="playlist-video-title">Fatalis - Monster Hunter World Iceborne - Dual Blades First Kill Raw Footage</div>
+                    <div class="playlist-channel-name">BirseneK</div>
+                    <div class="playlist-views">200 vizualizações -</div>
+                    <div class="playlist-tempo">há 2 dias</div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
